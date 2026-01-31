@@ -173,6 +173,19 @@ Maintain a registry of all AI systems. At minimum:
 
 Template: [templates/ai-registry.md](templates/ai-registry.md)
 
+### Third-Party / Vendor AI
+
+Most organizations don't only build AI — they also buy it. SaaS platforms with AI features, API-based models (OpenAI, Anthropic, Google), vendor tools with embedded ML — these all belong in your AI Registry.
+
+**Key principle: You deploy it, you own the risk.** Classify vendor AI based on *your use case*, not the vendor's marketing.
+
+Before adopting vendor AI:
+1. Register it in the AI Registry like any other system
+2. Classify it using the risk decision tree (based on your context)
+3. Complete a vendor AI assessment covering: data handling, contractual protections, your-side controls, exit strategy
+
+Template: [templates/vendor-ai-assessment.md](templates/vendor-ai-assessment.md)
+
 ---
 
 ## 4. Development Lifecycle
@@ -201,7 +214,7 @@ Five stages. Each has required artifacts that scale with risk tier.
 | Stakeholder Analysis | — | — | ✅ | ✅ |
 | Legal/Regulatory Review | — | — | ✅ | ✅ |
 
-Templates: [templates/use-case-statement.md](templates/use-case-statement.md), [templates/impact-assessment.md](templates/impact-assessment.md)
+Templates: [templates/use-case-statement.md](templates/use-case-statement.md), [templates/impact-assessment.md](templates/impact-assessment.md), [templates/stakeholder-analysis.md](templates/stakeholder-analysis.md)
 
 ### Stage 2: Build
 
@@ -257,6 +270,8 @@ Template: [templates/monitoring-plan.md](templates/monitoring-plan.md), [templat
 | Data Disposition Plan | — | — | ✅ | ✅ |
 | Migration Plan (if applicable) | — | ✅ | ✅ | ✅ |
 | Post-Mortem | — | — | — | ✅ |
+
+Template: [templates/retirement-plan.md](templates/retirement-plan.md)
 
 ---
 
@@ -432,6 +447,11 @@ This framework aligns with major regulations and standards. Use this mapping to 
 3. **Register** them in the AI Registry template
 4. **Pick one** High or Critical system and run through the full lifecycle
 5. **Iterate** — this framework is a living document, adapt it to your context
+
+**Additional resources:**
+- [Executive Summary](EXECUTIVE-SUMMARY.md) — one-page overview for leadership
+- [Maturity Model](MATURITY-MODEL.md) — assess where your organization is and plan next steps
+- [Glossary](GLOSSARY.md) — shared vocabulary for the framework
 
 ---
 

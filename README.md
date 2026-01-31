@@ -15,9 +15,11 @@ A complete, template-driven framework with:
 - **5 core principles** — memorizable and testable
 - **4 risk tiers** — effort scales with impact (not every system needs the same governance)
 - **5 lifecycle stages** with clear gate criteria
-- **7 reusable templates** — fill-in-the-blank, not write-from-scratch
-- **2 worked examples** — classical ML (fraud detection) and GenAI (customer chatbot)
+- **10 reusable templates** — fill-in-the-blank, not write-from-scratch
+- **3 worked examples** — classical ML, GenAI chatbot, and autonomous AI agent
 - **Compliance mapping** to NIST AI RMF, EU AI Act, ISO 42001, and Microsoft RAI
+- **Adoption maturity model** — self-assess and plan your governance journey
+- **Executive summary** — one-page overview for leadership buy-in
 
 ## Quick Start
 
@@ -29,20 +31,29 @@ A complete, template-driven framework with:
 
 ```
 rai-framework/
-├── FRAMEWORK.md          # The full framework
-├── QUICKSTART.md          # Get started in 30 minutes
+├── FRAMEWORK.md              # The full framework
+├── QUICKSTART.md              # Get started in 30 minutes
+├── EXECUTIVE-SUMMARY.md       # One-page overview for leadership
+├── MATURITY-MODEL.md          # Self-assess your RAI adoption level
+├── GLOSSARY.md                # Shared vocabulary (35+ terms)
+├── CHANGELOG.md               # Version history
+├── CONTRIBUTING.md            # How to contribute
 ├── templates/
-│   ├── ai-registry.md            # Track all your AI systems
-│   ├── use-case-statement.md     # Define what you're building and why
-│   ├── impact-assessment.md      # Identify and assess risks
-│   ├── model-card.md             # Document your model/system
-│   ├── data-documentation.md     # Document your datasets
-│   ├── test-report.md            # Validate before deployment
-│   ├── monitoring-plan.md        # Watch it in production
-│   └── incident-response.md      # Plan for when things go wrong
+│   ├── ai-registry.md                # Track all your AI systems
+│   ├── use-case-statement.md         # Define what you're building and why
+│   ├── impact-assessment.md          # Identify and assess risks
+│   ├── stakeholder-analysis.md       # Map who's affected and how
+│   ├── model-card.md                 # Document your model/system
+│   ├── data-documentation.md         # Document your datasets
+│   ├── test-report.md                # Validate before deployment
+│   ├── monitoring-plan.md            # Watch it in production
+│   ├── incident-response.md          # Plan for when things go wrong
+│   ├── retirement-plan.md            # Decommission responsibly
+│   └── vendor-ai-assessment.md       # Evaluate third-party AI
 └── examples/
-    ├── classical-ml-fraud-detection.md  # Worked example: fraud detection (XGBoost)
-    └── genai-customer-chatbot.md        # Worked example: RAG chatbot (GPT-4)
+    ├── classical-ml-fraud-detection.md    # Worked example: fraud detection (XGBoost)
+    ├── genai-customer-chatbot.md          # Worked example: RAG chatbot (GPT-4)
+    └── genai-autonomous-agent.md          # Worked example: DevOps AI agent
 ```
 
 ## Who Is This For?
@@ -60,9 +71,11 @@ rai-framework/
 | Lists principles | Provides **decision trees and checklists** |
 | One-size-fits-all | **Risk-tiered** — effort matches impact |
 | Development-focused | **Full lifecycle** including monitoring and retirement |
-| Requires weeks to understand | **30-minute quickstart** |
+| Requires weeks to understand | **30-minute quickstart** + **executive one-pager** |
 | Assumes dedicated ethics team | Works with **existing roles** |
-| Either classical ML or GenAI | **Covers both** with conditional guidance |
+| Either classical ML or GenAI | **Covers both** + AI agents with conditional guidance |
+| Focuses on what you build | Covers **vendor/third-party AI** too |
+| No adoption roadmap | **Maturity model** for organizational growth |
 
 ## Works With (Not Against)
 
