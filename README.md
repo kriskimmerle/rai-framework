@@ -1,3 +1,5 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 # Responsible AI Framework
 
 **Governance that works on Monday morning.**
