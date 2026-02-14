@@ -62,7 +62,7 @@ class TestValidation(unittest.TestCase):
         """Test when all templates are present"""
         # Create all required templates
         from validate import REQUIRED_TEMPLATES
-        for template_name in REQUIRED_TEMPLATES.keys():
+        for template_name in REQUIRED_TEMPLATES:
             (self.repo_root / 'templates' / template_name).write_text(f'# {template_name}')
         
         errors = check_templates_exist(self.repo_root)
