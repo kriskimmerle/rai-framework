@@ -1,3 +1,4 @@
+![CI](https://github.com/kriskimmerle/rai-framework/actions/workflows/test.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 # Responsible AI Framework
