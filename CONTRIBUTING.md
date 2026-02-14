@@ -43,15 +43,15 @@ These are especially valuable. If you've applied the framework (or similar gover
 
 1. Use the existing examples as a structural guide (`examples/` directory)
 2. Include: context, risk classification walkthrough, key artifacts (summarized), monitoring approach, lessons learned
-3. Anonymize as needed — real patterns matter more than real company names
+3. Anonymize as needed - real patterns matter more than real company names
 4. Focus on **what you learned**, not just what you did
 
 ## Quality Bar
 
 Every contribution should:
-- [ ] Be **actionable** — tell people what to DO, not just what to think about
-- [ ] Be **concise** — if it can be said in fewer words, say it in fewer words
-- [ ] **Scale with risk** — don't add process that applies to everything equally
+- [ ] Be **actionable** - tell people what to DO, not just what to think about
+- [ ] Be **concise** - if it can be said in fewer words, say it in fewer words
+- [ ] **Scale with risk** - don't add process that applies to everything equally
 - [ ] Include **examples** where possible
 - [ ] Not duplicate what's already covered
 

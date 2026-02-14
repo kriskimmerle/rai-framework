@@ -1,4 +1,4 @@
-# RAI Framework — Quickstart
+# RAI Framework - Quickstart
 
 **Get responsible AI governance running in 30 minutes.**
 
@@ -6,15 +6,15 @@ This guide gets you from zero to operational. You don't need to read the full fr
 
 ---
 
-## Minute 0–5: Understand the Basics
+## Minute 0-5: Understand the Basics
 
 The framework has **5 principles** (memorize these):
 
-1. **Know Your Impact** — What happens when this system fails?
-2. **Own It** — One named human is accountable
-3. **Show Your Work** — Stakeholders can understand decisions
-4. **Stay Vigilant** — Monitor in production, not just at launch
-5. **Respect People** — Privacy, fairness, and dignity come first
+1. **Know Your Impact** - What happens when this system fails?
+2. **Own It** - One named human is accountable
+3. **Show Your Work** - Stakeholders can understand decisions
+4. **Stay Vigilant** - Monitor in production, not just at launch
+5. **Respect People** - Privacy, fairness, and dignity come first
 
 And **4 risk tiers** (determines how much process to apply):
 
@@ -27,15 +27,15 @@ And **4 risk tiers** (determines how much process to apply):
 
 ---
 
-## Minute 5–10: Create Your AI Registry
+## Minute 5-10: Create Your AI Registry
 
 Copy [templates/ai-registry.md](templates/ai-registry.md) and list every AI system your team runs.
 
 For each system, fill in:
-- **Name** — what you call it
-- **Owner** — who's accountable (a specific person, not a team)
-- **Risk Tier** — use the decision tree below
-- **Status** — Development / Production / Retired
+- **Name** - what you call it
+- **Owner** - who's accountable (a specific person, not a team)
+- **Risk Tier** - use the decision tree below
+- **Status** - Development / Production / Retired
 
 ### Quick Risk Classification
 
@@ -50,19 +50,19 @@ Ask these questions in order:
 
 ---
 
-## Minute 10–15: Pick Your First System
+## Minute 10-15: Pick Your First System
 
-Choose **one** system to run through the framework — ideally your highest-risk one. Better to get it right on the important thing than to half-do everything.
+Choose **one** system to run through the framework - ideally your highest-risk one. Better to get it right on the important thing than to half-do everything.
 
 Fill in these templates for that system:
-1. [templates/use-case-statement.md](templates/use-case-statement.md) — what it does and why
-2. [templates/impact-assessment.md](templates/impact-assessment.md) — what could go wrong
+1. [templates/use-case-statement.md](templates/use-case-statement.md) - what it does and why
+2. [templates/impact-assessment.md](templates/impact-assessment.md) - what could go wrong
 
 These two documents are the foundation. Everything else builds on them.
 
 ---
 
-## Minute 15–20: Assign Roles
+## Minute 15-20: Assign Roles
 
 You need at minimum:
 
@@ -77,16 +77,16 @@ For small teams: the AI Owner can self-certify ⚪ Low and 🔵 Standard systems
 
 ---
 
-## Minute 20–25: Set Up Monitoring
+## Minute 20-25: Set Up Monitoring
 
 Every system in production (🔵 Standard and above) needs monitoring:
 
 ### Minimum Viable Monitoring
 
-- [ ] **Performance metric tracked** — accuracy, error rate, or equivalent
-- [ ] **Alert on significant degradation** — automated, goes to the AI Owner
-- [ ] **User feedback channel** — a way for users to report issues
-- [ ] **Monthly check-in** — 15 minutes, AI Owner reviews metrics
+- [ ] **Performance metric tracked** - accuracy, error rate, or equivalent
+- [ ] **Alert on significant degradation** - automated, goes to the AI Owner
+- [ ] **User feedback channel** - a way for users to report issues
+- [ ] **Monthly check-in** - 15 minutes, AI Owner reviews metrics
 
 For 🟡 High systems, add:
 - [ ] Fairness metrics (if applicable)
@@ -96,7 +96,7 @@ Use [templates/monitoring-plan.md](templates/monitoring-plan.md) to document thi
 
 ---
 
-## Minute 25–30: Commit to a Review Cadence
+## Minute 25-30: Commit to a Review Cadence
 
 | Risk Tier | Review Frequency | What to Review |
 |-----------|-----------------|----------------|
@@ -149,4 +149,4 @@ You're still responsible for how it's used. Classify based on *your use case*, n
 The compliance mapping table in the full framework shows how each element maps. This framework is designed to be compatible, not competing.
 
 **Q: This feels like a lot of paperwork.**
-For ⚪ Low and 🔵 Standard systems, you're looking at ~1 hour of documentation total. The overhead scales with risk. If a system is 🔴 Critical, the paperwork is the least of your concerns — you *want* rigor there.
+For ⚪ Low and 🔵 Standard systems, you're looking at ~1 hour of documentation total. The overhead scales with risk. If a system is 🔴 Critical, the paperwork is the least of your concerns - you *want* rigor there.

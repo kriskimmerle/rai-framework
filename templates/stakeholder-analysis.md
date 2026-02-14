@@ -13,7 +13,7 @@
 
 ## Why This Matters
 
-AI systems affect more people than their direct users. A fraud detection model affects customers, merchants, fraud analysts, compliance teams, and regulators — each with different concerns. Missing a stakeholder group means missing a risk.
+AI systems affect more people than their direct users. A fraud detection model affects customers, merchants, fraud analysts, compliance teams, and regulators - each with different concerns. Missing a stakeholder group means missing a risk.
 
 ## Stakeholder Identification
 

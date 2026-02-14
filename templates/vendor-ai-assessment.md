@@ -1,6 +1,6 @@
 # Third-Party / Vendor AI Assessment
 
-> Use this template when adopting AI systems you didn't build — SaaS AI features, API-based models, vendor platforms, open-source models. You are still responsible for how third-party AI is used in your context.
+> Use this template when adopting AI systems you didn't build - SaaS AI features, API-based models, vendor platforms, open-source models. You are still responsible for how third-party AI is used in your context.
 
 ## System Information
 
@@ -16,7 +16,7 @@
 ## Use Case Context
 
 **What are you using this vendor AI for?**
-*(Your specific application — not what the vendor markets it as)*
+*(Your specific application - not what the vendor markets it as)*
 
 
 
@@ -26,7 +26,7 @@
 
 
 **Risk tier rationale:**
-*(Classify based on YOUR use case, not the vendor's general risk level. A general-purpose LLM is neither low nor high risk by itself — how you deploy it determines the tier.)*
+*(Classify based on YOUR use case, not the vendor's general risk level. A general-purpose LLM is neither low nor high risk by itself - how you deploy it determines the tier.)*
 
 
 
@@ -102,7 +102,7 @@
 | Vendor changes model behavior (silent update) | | | |
 | Vendor discontinues product or goes bankrupt | | | |
 | Vendor AI produces biased / unfair outputs in your context | | | |
-| Vendor is acquired — policies change | | | |
+| Vendor is acquired - policies change | | | |
 | Regulatory change makes vendor non-compliant | | | |
 | Vendor AI used for unintended purpose by your users | | | |
 
@@ -171,10 +171,10 @@
 
 **Decision:**
 
-- [ ] **Approve** — vendor meets requirements, controls in place
-- [ ] **Approve with conditions** — must implement before go-live: _______________
-- [ ] **Reject** — unacceptable risk: _______________
-- [ ] **Defer** — need more information from vendor: _______________
+- [ ] **Approve** - vendor meets requirements, controls in place
+- [ ] **Approve with conditions** - must implement before go-live: _______________
+- [ ] **Reject** - unacceptable risk: _______________
+- [ ] **Defer** - need more information from vendor: _______________
 
 ## Re-Assessment Schedule
 

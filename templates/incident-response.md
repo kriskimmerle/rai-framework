@@ -25,10 +25,10 @@
 
 | Level | Definition | Response Time | Examples |
 |-------|-----------|---------------|---------|
-| **P0 — Critical** | Active harm, safety incident, data breach, regulatory violation | **Immediate** (within minutes) | PII leak, discriminatory decisions causing harm, system compromise |
-| **P1 — High** | Significant degradation, potential harm, regulatory risk | **Within 2 hours** | Major accuracy drop, fairness metric violation, sustained errors |
-| **P2 — Medium** | Noticeable issues, no immediate harm | **Within 1 business day** | Moderate performance drift, increased error rate, user complaints |
-| **P3 — Low** | Minor issues, cosmetic, no user impact | **Within 1 week** | Slight metric dip, non-critical logging issue |
+| **P0 - Critical** | Active harm, safety incident, data breach, regulatory violation | **Immediate** (within minutes) | PII leak, discriminatory decisions causing harm, system compromise |
+| **P1 - High** | Significant degradation, potential harm, regulatory risk | **Within 2 hours** | Major accuracy drop, fairness metric violation, sustained errors |
+| **P2 - Medium** | Noticeable issues, no immediate harm | **Within 1 business day** | Moderate performance drift, increased error rate, user complaints |
+| **P3 - Low** | Minor issues, cosmetic, no user impact | **Within 1 week** | Slight metric dip, non-critical logging issue |
 
 ## Response Process
 
@@ -104,18 +104,18 @@
 ## Post-Incident Report Template
 
 ```markdown
-# Incident Report: [System Name] — [Date]
+# Incident Report: [System Name] - [Date]
 
 ## Summary
 One paragraph: what happened, impact, resolution.
 
 ## Timeline
-- HH:MM — Incident detected by [method]
-- HH:MM — Severity assessed as [P0/P1/P2/P3]
-- HH:MM — [Containment action taken]
-- HH:MM — Root cause identified
-- HH:MM — Fix deployed
-- HH:MM — Confirmed resolved
+- HH:MM - Incident detected by [method]
+- HH:MM - Severity assessed as [P0/P1/P2/P3]
+- HH:MM - [Containment action taken]
+- HH:MM - Root cause identified
+- HH:MM - Fix deployed
+- HH:MM - Confirmed resolved
 
 ## Impact
 - Users affected: [number]

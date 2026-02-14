@@ -87,9 +87,9 @@
 
 ## Test Verdict
 
-- [ ] **PASS** — All required tests pass, no unmitigated critical/high issues
-- [ ] **CONDITIONAL PASS** — Pass with conditions: ________________
-- [ ] **FAIL** — Critical issues require resolution before deployment
+- [ ] **PASS** - All required tests pass, no unmitigated critical/high issues
+- [ ] **CONDITIONAL PASS** - Pass with conditions: ________________
+- [ ] **FAIL** - Critical issues require resolution before deployment
 
 ## Approval
 

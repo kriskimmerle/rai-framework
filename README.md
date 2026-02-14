@@ -1,108 +1,72 @@
-# Responsible AI Framework (RAI)
+# Responsible AI Framework
 
-**A practical, actionable framework for building and deploying AI responsibly.**
+**Governance that works on Monday morning.**
 
-Most RAI frameworks tell you *what* to care about. This one tells you *what to do*.
+Every organization deploying AI needs governance. The problem is that existing frameworks - NIST AI RMF, EU AI Act guidance, ISO 42001 - tell you what to care about but not what to do. Teams read them, agree in principle, and then build the same ungoverned systems they were building before.
 
-## The Problem
+This framework is different. It gives you decision trees, templates, and checklists. Risk tiers that scale effort to actual impact. A 30-minute quickstart that gets you from nothing to operational. Worked examples for classical ML, GenAI, and autonomous agents.
 
-Existing responsible AI frameworks are either too abstract (NIST AI RMF), too regulatory (EU AI Act), too vendor-specific (Microsoft RAI), or too academic. Teams read them, nod in agreement, and then don't know what to actually implement on Monday morning.
+If you have been looking at your AI systems thinking "we should probably govern these" but not sure where to start, start here.
 
-## The Solution
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-A complete, template-driven framework with:
+---
 
-- **5 core principles** — memorizable and testable
-- **4 risk tiers** — effort scales with impact (not every system needs the same governance)
-- **5 lifecycle stages** with clear gate criteria
-- **10 reusable templates** — fill-in-the-blank, not write-from-scratch
-- **3 worked examples** — classical ML, GenAI chatbot, and autonomous AI agent
-- **Compliance mapping** to NIST AI RMF, EU AI Act, ISO 42001, and Microsoft RAI
-- **Adoption maturity model** — self-assess and plan your governance journey
-- **Executive summary** — one-page overview for leadership buy-in
+## What is in the box
 
-## Quick Start
+| Document | Purpose |
+|----------|---------|
+| [QUICKSTART.md](QUICKSTART.md) | Get operational in 30 minutes |
+| [FRAMEWORK.md](FRAMEWORK.md) | The full framework - principles, risk tiers, lifecycle, gates |
+| [EXECUTIVE-SUMMARY.md](EXECUTIVE-SUMMARY.md) | One-page overview for leadership |
+| [MATURITY-MODEL.md](MATURITY-MODEL.md) | Self-assess your organization and plan next steps |
+| [GLOSSARY.md](GLOSSARY.md) | Shared vocabulary (35+ terms) |
+| [templates/](templates/) | 11 fill-in-the-blank templates for every lifecycle stage |
+| [examples/](examples/) | 3 worked examples: fraud detection, customer chatbot, DevOps agent |
 
-**Get operational in 30 minutes:** Read [QUICKSTART.md](QUICKSTART.md)
+## Core ideas
 
-**Deep dive:** Read [FRAMEWORK.md](FRAMEWORK.md)
+**Risk tiers.** Not every AI system needs the same scrutiny. A content recommendation widget is not a credit scoring model. Four tiers (Critical, High, Standard, Low) determine how much process to apply. Most of your systems are probably Standard or Low.
 
-## What's Included
+**Lifecycle gates.** Every AI system goes through Scope, Build, Test, Deploy, Retire. Between each stage there is a checkpoint. Higher risk means more rigorous checks. Lower risk means lightweight self-certification.
 
-```
-rai-framework/
-├── FRAMEWORK.md              # The full framework
-├── QUICKSTART.md              # Get started in 30 minutes
-├── EXECUTIVE-SUMMARY.md       # One-page overview for leadership
-├── MATURITY-MODEL.md          # Self-assess your RAI adoption level
-├── GLOSSARY.md                # Shared vocabulary (35+ terms)
-├── CHANGELOG.md               # Version history
-├── CONTRIBUTING.md            # How to contribute
-├── templates/
-│   ├── ai-registry.md                # Track all your AI systems
-│   ├── use-case-statement.md         # Define what you're building and why
-│   ├── impact-assessment.md          # Identify and assess risks
-│   ├── stakeholder-analysis.md       # Map who's affected and how
-│   ├── model-card.md                 # Document your model/system
-│   ├── data-documentation.md         # Document your datasets
-│   ├── test-report.md                # Validate before deployment
-│   ├── monitoring-plan.md            # Watch it in production
-│   ├── incident-response.md          # Plan for when things go wrong
-│   ├── retirement-plan.md            # Decommission responsibly
-│   └── vendor-ai-assessment.md       # Evaluate third-party AI
-└── examples/
-    ├── classical-ml-fraud-detection.md    # Worked example: fraud detection (XGBoost)
-    ├── genai-customer-chatbot.md          # Worked example: RAG chatbot (GPT-4)
-    └── genai-autonomous-agent.md          # Worked example: DevOps AI agent
-```
+**Templates, not essays.** 11 ready-to-use templates. Fill in the blanks. Use case statements, impact assessments, model cards, monitoring plans, incident response, vendor AI assessments. Teams fill them in rather than staring at a blank page.
 
-## Who Is This For?
+**Existing roles.** No ethics team required. The AI Owner is your product manager or tech lead. The AI Reviewer is a senior engineer. New roles only appear at the Critical tier.
 
-- **Engineering teams** building ML/AI systems who need governance without bureaucracy
-- **Product managers** responsible for AI-powered features
-- **Startups** that want to do the right thing without hiring a compliance team
-- **Enterprises** looking for a practical starting point they can customize
-- **Anyone** deploying AI who's read NIST/EU AI Act and thought "okay, but what do I *do*?"
+## How this maps to existing standards
 
-## What Makes This Different
+| This Framework | NIST AI RMF | EU AI Act | ISO 42001 |
+|---------------|-------------|-----------|-----------|
+| Risk Tiers | GOVERN (Risk Appetite) | Risk Categories (Art. 6) | Context of Organization |
+| Lifecycle Gates | MANAGE | Conformity Assessment (Art. 43) | Planning & Operation |
+| AI Registry | MAP | EU Database (Art. 71) | Statement of Applicability |
+| Monitoring | MEASURE, MANAGE | Post-Market Monitoring (Art. 72) | Monitoring & Review |
+| Incident Response | MANAGE | Serious Incident Reporting (Art. 73) | Incident Management |
 
-| Existing Frameworks | This Framework |
-|---|---|
-| Lists principles | Provides **decision trees and checklists** |
-| One-size-fits-all | **Risk-tiered** — effort matches impact |
-| Development-focused | **Full lifecycle** including monitoring and retirement |
-| Requires weeks to understand | **30-minute quickstart** + **executive one-pager** |
-| Assumes dedicated ethics team | Works with **existing roles** |
-| Either classical ML or GenAI | **Covers both** + AI agents with conditional guidance |
-| Focuses on what you build | Covers **vendor/third-party AI** too |
-| No adoption roadmap | **Maturity model** for organizational growth |
+This framework is designed to satisfy requirements from these standards, not compete with them. The compliance mapping in [FRAMEWORK.md](FRAMEWORK.md#8-compliance-mapping) is explicit.
 
-## Works With (Not Against)
+## Who this is for
 
-This framework is designed to complement, not compete with:
+- Engineering teams building ML/AI who need governance without bureaucracy
+- Product managers responsible for AI-powered features
+- Startups that want to do the right thing without hiring a compliance team
+- Enterprises looking for a practical starting point they can customize
+- Anyone who has read NIST or EU AI Act guidance and thought "okay, but what do I actually do?"
 
-- [NIST AI Risk Management Framework](https://doi.org/10.6028/NIST.AI.100-1) — our Govern/Map/Measure/Manage mapping is explicit
-- [EU AI Act](https://artificialintelligenceact.eu/) — our risk tiers align with EU risk categories
-- [ISO/IEC 42001](https://www.iso.org/standard/81230.html) — our governance structure maps to ISO requirements
-- [Microsoft Responsible AI](https://www.microsoft.com/en-us/ai/principles-and-approach) — our principles overlap with theirs
-
-See the compliance mapping table in [FRAMEWORK.md](FRAMEWORK.md#8-compliance-mapping).
-
-## Installation
-
-There's nothing to install. This is a documentation framework. Clone or download and start using the templates:
+## Getting started
 
 ```bash
 git clone https://github.com/kriskimmerle/rai-framework.git
 cd rai-framework
 ```
 
-Copy templates into your project, customize for your context, and start filling them in.
+Read [QUICKSTART.md](QUICKSTART.md). You will have an AI registry, risk classifications, and monitoring plan within 30 minutes.
 
 ## Contributing
 
-Found a gap? Have a suggestion? Open an issue or PR. This framework is a living document.
+Found a gap? Open an issue or PR. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-MIT — Use freely. Attribution appreciated but not required.
+MIT. Use freely. Attribution appreciated but not required.

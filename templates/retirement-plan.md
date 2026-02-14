@@ -18,7 +18,7 @@
 - [ ] Replaced by a new system → Replacement: _______________
 - [ ] No longer needed (business change)
 - [ ] Performance degraded beyond acceptable thresholds
-- [ ] Risk profile changed — no longer acceptable to operate
+- [ ] Risk profile changed - no longer acceptable to operate
 - [ ] Regulatory or compliance requirement
 - [ ] Cost no longer justified
 - [ ] Other: _______________
@@ -94,7 +94,7 @@
 ### Data Deletion Verification
 
 - [ ] All data marked for deletion has been deleted
-- [ ] Deletion verified (not just in primary storage — check backups, caches, replicas)
+- [ ] Deletion verified (not just in primary storage - check backups, caches, replicas)
 - [ ] Deletion documented with timestamps
 - [ ] Data Processing Agreements updated or terminated
 
@@ -147,10 +147,10 @@
 
 | Severity | Count |
 |----------|-------|
-| P0 — Critical | |
-| P1 — High | |
-| P2 — Medium | |
-| P3 — Low | |
+| P0 - Critical | |
+| P1 - High | |
+| P2 - Medium | |
+| P3 - Low | |
 
 **Key learnings for the organization:**
 

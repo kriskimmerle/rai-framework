@@ -14,7 +14,7 @@
 
 - **System Name:** Human-readable identifier for the AI system
 - **Owner:** Named individual (not a team) accountable for this system
-- **Risk Tier:** 🔴 Critical / 🟡 High / 🔵 Standard / ⚪ Low — see [risk classification decision tree](../FRAMEWORK.md#2-risk-classification)
+- **Risk Tier:** 🔴 Critical / 🟡 High / 🔵 Standard / ⚪ Low - see [risk classification decision tree](../FRAMEWORK.md#2-risk-classification)
 - **Status:** Development / Staging / Production / Retired
 - **Purpose:** One sentence: what it does and why
 - **Data Sources:** What data feeds into the system? Flag any PII

@@ -6,7 +6,7 @@
 
 ## Context
 
-**Company:** FinPay — a payment processing company with 2M users
+**Company:** FinPay - a payment processing company with 2M users
 **System:** Real-time fraud detection model that flags suspicious transactions
 **Team:** 15 engineers, no dedicated ethics team
 **Model:** Gradient boosted decision tree (XGBoost) trained on 3 years of transaction data
@@ -21,14 +21,14 @@ Walking through the decision tree:
    - **Yes.** Flagged transactions are automatically declined. This directly affects people's ability to use their money. False positives can lock people out of their accounts.
    - → **🔴 Critical**
 
-**But wait** — let's say instead the system only *flags* for human review and doesn't auto-decline. Then:
+**But wait** - let's say instead the system only *flags* for human review and doesn't auto-decline. Then:
 
-1. *Does it directly affect rights/safety?* — Not directly, human reviews first → NO
-2. *Could failure cause >$100K loss, regulatory action, or reputational damage?* — **Yes** — fraud losses, PCI/regulatory requirements → **🟡 High**
+1. *Does it directly affect rights/safety?* - Not directly, human reviews first → NO
+2. *Could failure cause >$100K loss, regulatory action, or reputational damage?* - **Yes** - fraud losses, PCI/regulatory requirements → **🟡 High**
 
 **Escalation factors check:**
-- Uses financial data (sensitive) ✅ — but already classified 🟡 High
-- High volume (50K+ transactions/day) ✅ — confirm 🟡 High
+- Uses financial data (sensitive) ✅ - but already classified 🟡 High
+- High volume (50K+ transactions/day) ✅ - confirm 🟡 High
 
 **Final classification: 🟡 High** (with human-in-the-loop) or **🔴 Critical** (auto-decline)
 
@@ -57,7 +57,7 @@ All 2M users. Legitimate users with flagged transactions experience delayed proc
 **Human's role:** Human-on-the-loop. Model flags, human fraud analyst reviews and decides.
 
 **What could go wrong?**
-Model could systematically flag transactions from certain demographic groups, ZIP codes, or merchant types — causing disproportionate delays for those users. Alternatively, model could miss a new fraud pattern and allow significant losses.
+Model could systematically flag transactions from certain demographic groups, ZIP codes, or merchant types - causing disproportionate delays for those users. Alternatively, model could miss a new fraud pattern and allow significant losses.
 
 **Fallback:** Revert to rule-based system (higher false positive rate but understood behavior).
 
@@ -127,4 +127,4 @@ Model could systematically flag transactions from certain demographic groups, ZI
 1. **Class imbalance matters.** Using AUPRC instead of accuracy/ROC avoided a model that looks great on paper but misses fraud.
 2. **Fairness testing found a real problem.** Without testing across subgroups, the rural/low-income disparity would have gone unnoticed.
 3. **Human-in-the-loop changed the risk tier.** Auto-decline = 🔴 Critical. Flag for review = 🟡 High. The human review step is a meaningful control.
-4. **Monitoring drift is essential.** Fraud patterns shift constantly. A model trained on 2023-2025 data will degrade — the weekly drift check catches this early.
+4. **Monitoring drift is essential.** Fraud patterns shift constantly. A model trained on 2023-2025 data will degrade - the weekly drift check catches this early.

@@ -77,10 +77,10 @@
 
 Based on this assessment:
 
-- [ ] **Proceed** — risks are acceptable with stated mitigations
-- [ ] **Proceed with conditions** — additional mitigations required before deployment: ________________
-- [ ] **Do not proceed** — risks outweigh benefits
-- [ ] **Escalate** — need additional review from: ________________
+- [ ] **Proceed** - risks are acceptable with stated mitigations
+- [ ] **Proceed with conditions** - additional mitigations required before deployment: ________________
+- [ ] **Do not proceed** - risks outweigh benefits
+- [ ] **Escalate** - need additional review from: ________________
 
 ## Approval
 

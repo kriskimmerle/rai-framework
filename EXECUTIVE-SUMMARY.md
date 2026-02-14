@@ -1,4 +1,4 @@
-# RAI Framework — Executive Summary
+# RAI Framework - Executive Summary
 
 **One page. Everything leadership needs to know.**
 
@@ -6,7 +6,7 @@
 
 ## What Is This?
 
-A practical governance framework for AI systems. It tells your teams exactly what to do — not just what to care about.
+A practical governance framework for AI systems. It tells your teams exactly what to do - not just what to care about.
 
 ## Why Do We Need It?
 
@@ -22,7 +22,7 @@ A practical governance framework for AI systems. It tells your teams exactly wha
 
 **Three core ideas:**
 
-### 1. Risk Tiers — Not Everything Needs the Same Scrutiny
+### 1. Risk Tiers - Not Everything Needs the Same Scrutiny
 
 | Tier | What Goes Here | Overhead |
 |------|---------------|----------|
@@ -33,13 +33,13 @@ A practical governance framework for AI systems. It tells your teams exactly wha
 
 Most of your AI systems are 🔵 Standard or ⚪ Low. The heavy process only applies where it matters.
 
-### 2. Lifecycle Gates — Check Before You Ship
+### 2. Lifecycle Gates - Check Before You Ship
 
 Every AI system goes through: **Scope → Build → Test → Deploy → Retire**
 
-Between each stage, there's a gate — a checklist and an approval. Higher risk = more rigorous gates. Lower risk = lightweight self-certification.
+Between each stage, there's a gate - a checklist and an approval. Higher risk = more rigorous gates. Lower risk = lightweight self-certification.
 
-### 3. Templates — Fill In, Don't Write From Scratch
+### 3. Templates - Fill In, Don't Write From Scratch
 
 10 ready-to-use templates: AI registry, use case statement, impact assessment, model card, data documentation, test report, monitoring plan, incident response, retirement plan, vendor AI assessment.
 
@@ -58,12 +58,12 @@ Teams fill in the blanks. No guesswork.
 
 ## What Does It Give Us?
 
-- **Regulatory readiness** — Mapped to NIST AI RMF, EU AI Act, ISO 42001
-- **Reduced risk** — Catches bias, safety, and privacy issues before production
-- **Accountability** — Every AI system has a named owner
-- **Audit trail** — Documentation at every lifecycle stage
-- **Incident preparedness** — Response plans in place before something goes wrong
-- **Consistency** — Same process for classical ML, GenAI, and AI agents
+- **Regulatory readiness** - Mapped to NIST AI RMF, EU AI Act, ISO 42001
+- **Reduced risk** - Catches bias, safety, and privacy issues before production
+- **Accountability** - Every AI system has a named owner
+- **Audit trail** - Documentation at every lifecycle stage
+- **Incident preparedness** - Response plans in place before something goes wrong
+- **Consistency** - Same process for classical ML, GenAI, and AI agents
 
 ## How Do We Start?
 
@@ -76,9 +76,9 @@ Teams fill in the blanks. No guesswork.
 
 | Role | Responsibility |
 |------|---------------|
-| **AI Owner** (per system) | Product manager or tech lead — owns the system end-to-end |
-| **AI Reviewer** (per system) | Senior engineer — validates testing and risk assessments |
-| **RAI Sponsor** (org-level) | VP/Director — resolves escalations, sets risk appetite |
+| **AI Owner** (per system) | Product manager or tech lead - owns the system end-to-end |
+| **AI Reviewer** (per system) | Senior engineer - validates testing and risk assessments |
+| **RAI Sponsor** (org-level) | VP/Director - resolves escalations, sets risk appetite |
 
 No new hires needed. Works with existing roles.
 

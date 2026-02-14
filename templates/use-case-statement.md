@@ -31,7 +31,7 @@
 
 
 **Who is affected by this system's outputs/decisions?**
-*(May be broader than the users — include indirect stakeholders)*
+*(May be broader than the users - include indirect stakeholders)*
 
 
 

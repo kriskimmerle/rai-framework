@@ -8,7 +8,7 @@
 
 ## Who This Is For
 
-Any team building or deploying AI systems — whether you're training a fraud detection model, fine-tuning an LLM, building a recommendation engine, or deploying an AI agent. This framework scales from a 3-person startup to a Fortune 500 company.
+Any team building or deploying AI systems - whether you're training a fraud detection model, fine-tuning an LLM, building a recommendation engine, or deploying an AI agent. This framework scales from a 3-person startup to a Fortune 500 company.
 
 **Works for:**
 - Classical ML (classification, regression, clustering, forecasting)
@@ -23,7 +23,7 @@ Any team building or deploying AI systems — whether you're training a fraud de
 | Existing Frameworks | This Framework |
 |---|---|
 | Lists principles | Provides **decision trees and checklists** |
-| One-size-fits-all | **Risk-tiered** — effort scales with impact |
+| One-size-fits-all | **Risk-tiered** - effort scales with impact |
 | Focuses on development | Covers **full lifecycle including production monitoring and retirement** |
 | Requires weeks to understand | **Quickstart in 30 minutes** |
 | Assumes dedicated ethics team | Works with **existing roles** |
@@ -56,13 +56,13 @@ Before building anything, understand what happens when it goes wrong.
 
 ### 1.2 Own It
 
-Every AI system has a named human owner who is accountable for its behavior in production — not just at launch.
+Every AI system has a named human owner who is accountable for its behavior in production - not just at launch.
 
 **Test:** *If this system causes harm at 2 AM on a Saturday, does one specific person get the call? Do they have the authority to shut it down?*
 
 ### 1.3 Show Your Work
 
-Stakeholders affected by the system can understand what it does, how decisions are made, and what data was used — at a level appropriate to their role.
+Stakeholders affected by the system can understand what it does, how decisions are made, and what data was used - at a level appropriate to their role.
 
 **Test:** *Can you explain to a non-technical executive why the system made a specific decision? Can the person affected by that decision get an explanation?*
 
@@ -74,9 +74,9 @@ AI systems degrade. Data drifts. The world changes. Monitor continuously and hav
 
 ### 1.5 Respect People
 
-The humans affected by your system — their privacy, dignity, autonomy, and rights — take precedence over model performance metrics.
+The humans affected by your system - their privacy, dignity, autonomy, and rights - take precedence over model performance metrics.
 
-**Test:** *If the people whose data you're using, or whose lives your system affects, could see everything you're doing — would they be okay with it?*
+**Test:** *If the people whose data you're using, or whose lives your system affects, could see everything you're doing - would they be okay with it?*
 
 ---
 
@@ -153,7 +153,7 @@ Governance doesn't require a new department. It requires clear roles and account
 
 **Medium team (10-100):** Designate AI Reviewers per product area. RAI Sponsor is typically the engineering or product lead.
 
-**Large org (100+):** Consider a lightweight RAI working group (not a committee — a working group that ships). Cross-functional: engineering, product, legal, security.
+**Large org (100+):** Consider a lightweight RAI working group (not a committee - a working group that ships). Cross-functional: engineering, product, legal, security.
 
 ### The AI Registry
 
@@ -175,7 +175,7 @@ Template: [templates/ai-registry.md](templates/ai-registry.md)
 
 ### Third-Party / Vendor AI
 
-Most organizations don't only build AI — they also buy it. SaaS platforms with AI features, API-based models (OpenAI, Anthropic, Google), vendor tools with embedded ML — these all belong in your AI Registry.
+Most organizations don't only build AI - they also buy it. SaaS platforms with AI features, API-based models (OpenAI, Anthropic, Google), vendor tools with embedded ML - these all belong in your AI Registry.
 
 **Key principle: You deploy it, you own the risk.** Classify vendor AI based on *your use case*, not the vendor's marketing.
 
@@ -210,9 +210,9 @@ Five stages. Each has required artifacts that scale with risk tier.
 |----------|--------|------------|---------|------------|
 | Use Case Statement | ✅ | ✅ | ✅ | ✅ |
 | Risk Classification | ✅ | ✅ | ✅ | ✅ |
-| Impact Assessment | — | ✅ | ✅ | ✅ |
-| Stakeholder Analysis | — | — | ✅ | ✅ |
-| Legal/Regulatory Review | — | — | ✅ | ✅ |
+| Impact Assessment | - | ✅ | ✅ | ✅ |
+| Stakeholder Analysis | - | - | ✅ | ✅ |
+| Legal/Regulatory Review | - | - | ✅ | ✅ |
 
 Templates: [templates/use-case-statement.md](templates/use-case-statement.md), [templates/impact-assessment.md](templates/impact-assessment.md), [templates/stakeholder-analysis.md](templates/stakeholder-analysis.md)
 
@@ -222,11 +222,11 @@ Templates: [templates/use-case-statement.md](templates/use-case-statement.md), [
 
 | Artifact | ⚪ Low | 🔵 Standard | 🟡 High | 🔴 Critical |
 |----------|--------|------------|---------|------------|
-| Data Documentation | — | ✅ | ✅ | ✅ |
-| Model/System Card | — | ✅ | ✅ | ✅ |
-| Bias & Fairness Plan | — | — | ✅ | ✅ |
-| Privacy Review | — | — | ✅ | ✅ |
-| Security Review | — | ✅ | ✅ | ✅ |
+| Data Documentation | - | ✅ | ✅ | ✅ |
+| Model/System Card | - | ✅ | ✅ | ✅ |
+| Bias & Fairness Plan | - | - | ✅ | ✅ |
+| Privacy Review | - | - | ✅ | ✅ |
+| Security Review | - | ✅ | ✅ | ✅ |
 
 Templates: [templates/data-documentation.md](templates/data-documentation.md), [templates/model-card.md](templates/model-card.md)
 
@@ -237,11 +237,11 @@ Templates: [templates/data-documentation.md](templates/data-documentation.md), [
 | Artifact | ⚪ Low | 🔵 Standard | 🟡 High | 🔴 Critical |
 |----------|--------|------------|---------|------------|
 | Functional Testing | ✅ | ✅ | ✅ | ✅ |
-| Fairness Testing | — | — | ✅ | ✅ |
-| Adversarial/Red Team Testing | — | — | ✅ | ✅ |
-| Performance Benchmarks | — | ✅ | ✅ | ✅ |
-| Edge Case Documentation | — | — | ✅ | ✅ |
-| Human Review of Outputs | — | — | ✅ | ✅ |
+| Fairness Testing | - | - | ✅ | ✅ |
+| Adversarial/Red Team Testing | - | - | ✅ | ✅ |
+| Performance Benchmarks | - | ✅ | ✅ | ✅ |
+| Edge Case Documentation | - | - | ✅ | ✅ |
+| Human Review of Outputs | - | - | ✅ | ✅ |
 
 Template: [templates/test-report.md](templates/test-report.md)
 
@@ -251,12 +251,12 @@ Template: [templates/test-report.md](templates/test-report.md)
 
 | Artifact | ⚪ Low | 🔵 Standard | 🟡 High | 🔴 Critical |
 |----------|--------|------------|---------|------------|
-| Deployment Plan | — | ✅ | ✅ | ✅ |
-| Rollback Plan | — | ✅ | ✅ | ✅ |
-| Monitoring Dashboard | — | ✅ | ✅ | ✅ |
-| Incident Response Plan | — | — | ✅ | ✅ |
-| Periodic Review Schedule | — | ✅ (annual) | ✅ (quarterly) | ✅ (monthly) |
-| User Recourse Documentation | — | — | ✅ | ✅ |
+| Deployment Plan | - | ✅ | ✅ | ✅ |
+| Rollback Plan | - | ✅ | ✅ | ✅ |
+| Monitoring Dashboard | - | ✅ | ✅ | ✅ |
+| Incident Response Plan | - | - | ✅ | ✅ |
+| Periodic Review Schedule | - | ✅ (annual) | ✅ (quarterly) | ✅ (monthly) |
+| User Recourse Documentation | - | - | ✅ | ✅ |
 
 Template: [templates/monitoring-plan.md](templates/monitoring-plan.md), [templates/incident-response.md](templates/incident-response.md)
 
@@ -266,10 +266,10 @@ Template: [templates/monitoring-plan.md](templates/monitoring-plan.md), [templat
 
 | Artifact | ⚪ Low | 🔵 Standard | 🟡 High | 🔴 Critical |
 |----------|--------|------------|---------|------------|
-| Retirement Notice | — | ✅ | ✅ | ✅ |
-| Data Disposition Plan | — | — | ✅ | ✅ |
-| Migration Plan (if applicable) | — | ✅ | ✅ | ✅ |
-| Post-Mortem | — | — | — | ✅ |
+| Retirement Notice | - | ✅ | ✅ | ✅ |
+| Data Disposition Plan | - | - | ✅ | ✅ |
+| Migration Plan (if applicable) | - | ✅ | ✅ | ✅ |
+| Post-Mortem | - | - | - | ✅ |
 
 Template: [templates/retirement-plan.md](templates/retirement-plan.md)
 
@@ -381,23 +381,23 @@ Autonomous AI agents (systems that can take actions, call APIs, execute code) re
 | Signal | Classical ML | GenAI | Frequency |
 |--------|-------------|-------|-----------|
 | Performance metrics (accuracy, precision, recall, etc.) | ✅ | ✅ | Daily/weekly |
-| Data drift (input distribution changes) | ✅ | — | Weekly |
+| Data drift (input distribution changes) | ✅ | - | Weekly |
 | Output distribution changes | ✅ | ✅ | Daily |
 | Fairness metrics across subgroups | ✅ (High+) | ✅ (High+) | Weekly/monthly |
 | Latency and availability | ✅ | ✅ | Real-time |
 | User feedback / complaints | ✅ | ✅ | Continuous |
-| Safety violations (harmful outputs) | — | ✅ | Real-time |
-| Abuse patterns | — | ✅ | Daily |
+| Safety violations (harmful outputs) | - | ✅ | Real-time |
+| Abuse patterns | - | ✅ | Daily |
 | Cost and usage | ✅ | ✅ | Daily |
 
 ### Incident Severity Levels
 
 | Level | Definition | Response Time | Example |
 |-------|-----------|---------------|---------|
-| **P0 — Critical** | Active harm to users, safety incident, data breach | Immediate (minutes) | Model leaking PII, biased decisions causing real harm |
-| **P1 — High** | Significant degradation, regulatory risk | Within hours | Major accuracy drop, fairness metric violation |
-| **P2 — Medium** | Noticeable issues, no immediate harm | Within 1 business day | Moderate drift, increased error rate |
-| **P3 — Low** | Minor issues, cosmetic | Within 1 week | Slight performance dip, non-critical bug |
+| **P0 - Critical** | Active harm to users, safety incident, data breach | Immediate (minutes) | Model leaking PII, biased decisions causing real harm |
+| **P1 - High** | Significant degradation, regulatory risk | Within hours | Major accuracy drop, fairness metric violation |
+| **P2 - Medium** | Noticeable issues, no immediate harm | Within 1 business day | Moderate drift, increased error rate |
+| **P3 - Low** | Minor issues, cosmetic | Within 1 week | Slight performance dip, non-critical bug |
 
 ### Incident Response Process
 
@@ -433,25 +433,25 @@ This framework aligns with major regulations and standards. Use this mapping to 
 | Show Your Work | MAP, MEASURE | Transparency (Art. 13) | Documentation | Transparency |
 | Stay Vigilant | MEASURE, MANAGE | Post-Market Monitoring (Art. 72) | Monitoring & Review | Reliability & Safety |
 | Respect People | GOVERN, MANAGE | Fundamental Rights (Art. 27) | Interested Parties | Fairness, Privacy |
-| Risk Tiers | GOVERN (Risk Appetite) | Risk Categories (Art. 6, Annex III) | Context of Organization | — |
-| Stage Gates | MANAGE | Conformity Assessment (Art. 43) | Planning & Operation | — |
-| AI Registry | MAP | EU Database (Art. 71) | Statement of Applicability | — |
-| Incident Response | MANAGE | Serious Incident Reporting (Art. 73) | Incident Management | — |
+| Risk Tiers | GOVERN (Risk Appetite) | Risk Categories (Art. 6, Annex III) | Context of Organization | - |
+| Stage Gates | MANAGE | Conformity Assessment (Art. 43) | Planning & Operation | - |
+| AI Registry | MAP | EU Database (Art. 71) | Statement of Applicability | - |
+| Incident Response | MANAGE | Serious Incident Reporting (Art. 73) | Incident Management | - |
 
 ---
 
 ## Getting Started
 
-1. **Read** [QUICKSTART.md](QUICKSTART.md) — get operational in 30 minutes
+1. **Read** [QUICKSTART.md](QUICKSTART.md) - get operational in 30 minutes
 2. **Classify** your existing AI systems using the decision tree
 3. **Register** them in the AI Registry template
 4. **Pick one** High or Critical system and run through the full lifecycle
-5. **Iterate** — this framework is a living document, adapt it to your context
+5. **Iterate** - this framework is a living document, adapt it to your context
 
 **Additional resources:**
-- [Executive Summary](EXECUTIVE-SUMMARY.md) — one-page overview for leadership
-- [Maturity Model](MATURITY-MODEL.md) — assess where your organization is and plan next steps
-- [Glossary](GLOSSARY.md) — shared vocabulary for the framework
+- [Executive Summary](EXECUTIVE-SUMMARY.md) - one-page overview for leadership
+- [Maturity Model](MATURITY-MODEL.md) - assess where your organization is and plan next steps
+- [Glossary](GLOSSARY.md) - shared vocabulary for the framework
 
 ---
 
@@ -470,4 +470,4 @@ This framework aligns with major regulations and standards. Use this mapping to 
 
 ## License
 
-MIT — Use this framework freely. Attribution appreciated but not required.
+MIT - Use this framework freely. Attribution appreciated but not required.
